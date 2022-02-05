@@ -26,6 +26,13 @@ gem 'bootsnap', '>= 1.4.4', require: false
 gem 'rack-cors'
 
 
+# Authentication
+# https://github.com/heartcombo/devise
+gem 'devise'
+
+# JWT devise for API
+# https://github.com/waiting-for-dev/devise-jwt
+gem 'devise-jwt'
 
 
 group :development, :test do
