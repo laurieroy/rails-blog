@@ -1,4 +1,4 @@
-class PingsController < ApplicationController
+class PingController < ApplicationController
 	before_action :authenticate_user!, only: [:auth]
 
   # GET /ping

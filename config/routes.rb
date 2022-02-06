@@ -1,6 +1,4 @@
 Rails.application.routes.draw do
-  
-  
   # Ping to ensure site is up
   resources :ping, only: [:index] do
     collection do
